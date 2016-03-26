@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-openvpn --config $1
+openvpn --mute-replay-warnings --config $1
